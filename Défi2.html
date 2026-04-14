@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Défi 2 : Code source</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            height: 2000px;
+        }
+
+        header {
+            background-color: #134459;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #2c3e50;
+        }
+
+        h3 {
+            line-height: 1.6;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        img {
+            border: 3px solid black;
+            border-radius: 20px;
+            margin: 20px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        video {
+            border-radius: 12px;
+            border: 3px solid #333;
+            max-width: 100%;
+        }
+
+        .button1 {
+            background-color: #8C7966;
+            border-radius: 7px;
+            color: black;
+            padding: 12px 25px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border: 2px solid black;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: #f2f2f2;
+            padding: 15px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Défi 2 : Code source</h1>
+</header>
+
+<main>
+
+<h3>
+Pour trouver ce red flag, nous avons inspecté le code source en faisant un clic droit.  
+Il y avait le mot de passe écrit directement dans la page.
+
+<br><br>
+
+<strong>Red flag :</strong> HTML = langage-du-web!
+
+<br><br>
+
+Pour éviter cela, il faut mettre en œuvre des techniques de sécurisation dès le départ.  
+Les failles web viennent souvent d’erreurs de programmation ou d’oubli de sécurité.
+
+<br><br>
+
+<strong>Risques professionnels :</strong><br>
+- Fuite de données sensibles (Data Leakage)<br>
+- Identifiants de test oubliés<br>
+- Clés API ou tokens exposés<br>
+
+</h3>
+
+<br>
+
+<div class="image-container">
+
+    <!-- IMAGE -->
+    <img src="data:image/jpeg;base64,TON_IMAGE_BASE64_ICI"
+         width="400" height="300"
+         alt="image défi">
+
+    <!-- VIDEO -->
+    <video controls width="800">
+        <source src="0331(2).mp4" type="video/mp4">
+        Ton navigateur ne supporte pas la vidéo.
+    </video>
+
+</div>
+
+</main>
+
+<!-- FOOTER -->
+<div class="footer">
+
+    <a href="defi1.html" class="button1">Page précédente</a>
+
+    <a href="index.html" class="button1">Page d'accueil</a>
+
+    <a href="defi3.html" class="button1">Page suivante</a>
+
+</div>
+
+</body>
+</html>
