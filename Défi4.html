@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Défi 4 : URL</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            height: 2000px;
+        }
+
+        header {
+            background-color: #134459;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+        }
+
+        img {
+            border: 3px solid black;
+            border-radius: 20px;
+            margin: 20px;
+        }
+
+        video {
+            border-radius: 12px;
+            border: 3px solid #333;
+        }
+
+        .button1 {
+            background-color: #8C7966;
+            border-radius: 7px;
+            color: black;
+            padding: 15px 32px;
+            font-size: 16px;
+            margin: 20px;
+            cursor: pointer;
+            border: 2px solid black;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: #f2f2f2;
+            padding: 15px 0;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Défi 4 : URL ?</h1>
+</header>
+
+<main>
+
+<h3>
+Pour trouver ce red flag, nous avons modifié l’URL pour accéder à une page contenant plusieurs mots de passe.
+Après avoir trouvé le bon mot de passe, nous avons modifié l’URL en “admin”, puis saisi le mot de passe pour obtenir le red flag.
+
+<br><br>
+
+Red flag = une_URL_ca_se_ch@nge!
+
+<br><br>
+
+Ce type de faille permet à un attaquant de modifier les paramètres d’une URL pour accéder à des pages non autorisées.
+
+<br><br>
+
+Risques professionnels :
+<br>
+- Fuite de données et perte de confidentialité
+<br>
+- Accès aux données clients (identité, informations sensibles)
+<br>
+- Accès à des bases internes ou pages d’administration
+</h3>
+
+<div class="image-container">
+    <img src="https://www.challenges-kids.fr/images/challenges/web/chall4.jpg"
+         width="400"
+         height="300"
+         alt="challenge image">
+</div>
+
+<br>
+
+<video controls width="800">
+    <source src="C:/Users/Arnaud/Downloads/0407 (1).mp4" type="video/mp4">
+    Ton navigateur ne supporte pas la vidéo.
+</video>
+
+</main>
